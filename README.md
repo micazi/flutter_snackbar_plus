@@ -37,6 +37,8 @@ See Example page for example code.
 
 [] Add Programatic Dismiss.
 
+[] Add more animations.
+
 ## Contributing
 
 Contributing is more than welcomed on any of my packages/plugins.
@@ -47,6 +49,7 @@ I will try to keep adding suggested features as i go.
 ## Versioning
 
 - **V0.4.3** - Initial Release.
+- **V0.4.5** - Fixed Documentation.
 
 ## Authors
 
