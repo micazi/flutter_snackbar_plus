@@ -1,0 +1,4 @@
+enum FlutterSnackBarLocation {
+  top,
+  bottom,
+}
