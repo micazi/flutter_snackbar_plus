@@ -5,7 +5,7 @@ import 'models/style.dart';
 import 'widgets/exports.dart';
 
 ///
-/// Minimal library to handle SnackBars with elaborate list of configuration * style options.
+/// Minimal library to handle SnackBars with elaborate list of configuration & style options.
 ///
 class FlutterSnackBar {
   static List<OverlayEntry> entries = [];
