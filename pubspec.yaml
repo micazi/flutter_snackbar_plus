@@ -1,6 +1,6 @@
 name: flutter_snackbar_plus
 description: A minimal library to handle SnackBars with elaborate list of configuration & style options.
-version: 0.4.8
+version: 0.4.9
 homepage: https://github.com/micazi/flutter_snackbar_plus
 
 environment:
