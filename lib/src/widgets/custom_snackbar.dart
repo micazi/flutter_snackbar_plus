@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../exports.dart';
+import '../Models/exports.dart';
+
+import 'base_snackbar.dart';
 
 ///
 /// Custom Snackbar widget to spicify custom content child. Used in combination with [FlutterSnackBarConfiguration] and

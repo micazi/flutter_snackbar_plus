@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../exports.dart';
+import '../Models/exports.dart';
+
+import 'base_snackbar.dart';
 
 ///
 /// Templated Snackbar widget used as an easier way to section a snackbar as a tile. Mainly Leading Widget, Content Section, and
