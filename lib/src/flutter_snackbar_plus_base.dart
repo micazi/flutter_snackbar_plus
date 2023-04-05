@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'Models/exports.dart';
-import 'Widgets/exports.dart';
+import 'models/exports.dart';
+import 'widgets/exports.dart';
+
 
 ///
 /// Minimal library to handle SnackBars with elaborate list of configuration * style options.
