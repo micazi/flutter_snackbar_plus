@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../enums/exports.dart';
 
+///
+/// Base Configuration for the [FlutterSnackBar].
+///
 class FlutterSnackBarConfiguration {
   const FlutterSnackBarConfiguration({
     this.location = FlutterSnackBarLocation.bottom,
@@ -15,24 +18,54 @@ class FlutterSnackBarConfiguration {
     this.showLoadingBar = false,
     this.persistent = false,
   });
-  //Location
+
+  ///
+  /// The location of the SnackBar.
+  ///
   final FlutterSnackBarLocation? location;
-  //Dismiss Direction
+
+  ///
+  /// The direction to dismiss the SnackBar when [dismissible] is enabled.
+  ///
   final DismissDirection? dismissDirection;
-  //Distance
+
+  ///
+  /// The distance covered by the SnackBar for the [location].
+  ///
   final double? distance;
-  // Animation Type
+
+  ///
+  /// Animation type for the SnackBar.
+  ///
   final FlutterSnackbarAnimation? animation;
-  // Animation Curve
+
+  ///
+  /// The animation curve of the SnackBar.
+  ///
   final Curve? animationCurve;
-  // Animation Duration
+
+  ///
+  /// The animation duration of the SnackBar.
+  ///
   final Duration? animationDuration;
-  // ShowDuration
+
+  ///
+  /// How long the SnackBar will be shown.
+  ///
   final Duration? showDuration;
-  // Dissmissable?
+
+  ///
+  /// Is the SnackBar dismissible?
+  ///
   final bool? dismissible;
-  // Persistent
+
+  ///
+  /// Is the SnackBar persistent? (will discard the [showDuration] value).
+  ///
   final bool? persistent;
-  // Show Loading Bar?
+
+  ///
+  /// Show the loading bar?
+  ///
   final bool? showLoadingBar;
 }

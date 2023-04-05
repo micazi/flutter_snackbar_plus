@@ -13,6 +13,9 @@ class FlutterSnackBar {
   static FlutterSnackBarConfiguration? defaultConfiguration;
   static FlutterSnackBarStyle? defaultStyle;
 
+  ///
+  /// Initialize the instance with default [FlutterSnackBarConfiguration] & [FlutterSnackBarStyle].
+  ///
   initialize(
       {FlutterSnackBarConfiguration? configuration,
       FlutterSnackBarStyle? style}) {
@@ -27,17 +30,39 @@ class FlutterSnackBar {
   ///
   static void showTemplated(
     BuildContext context, {
-    // Leading
+    ///
+    /// Leading Widget for the SnackBar.
+    ///
     Widget? leading,
-    // Main Content
+
+    ///
+    /// Title parameter for the SnackBar.
+    ///
     required String title,
+
+    ///
+    /// Message parameter for the SnackBar.
+    ///
     String? message,
+
+    ///
+    /// Main Content Widget for the SnackBar, Should not be used with the [title] & [message] parameters.
+    ///
     Widget? content,
-    // Trailing
+
+    ///
+    /// Trailing Widget for the SnackBar.
+    ///
     Widget? trailing,
-    // Style
+
+    ///
+    /// Styling parameter for the SnackBar.
+    ///
     FlutterSnackBarStyle? style,
-    // Configuration
+
+    ///
+    /// Configuration parameter for the SnackBar.
+    ///
     FlutterSnackBarConfiguration? configuration,
   }) {
     // Overlay State

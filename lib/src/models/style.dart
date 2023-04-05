@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+///
+/// Base Styling for the [FlutterSnackBar].
+///
 class FlutterSnackBarStyle {
   const FlutterSnackBarStyle({
     this.padding = const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16.0),
@@ -29,39 +32,90 @@ class FlutterSnackBarStyle {
     this.loadingBarColor = Colors.red,
     this.loadingBarRadius = BorderRadius.zero,
   });
-  // Padding
+
+  ///
+  /// Overall padding for the SnackBar.
+  ///
   final EdgeInsets? padding;
-  // Margin
+
+  ///
+  /// Outside margin for the SnackBar.
+  ///
   final EdgeInsets? margin;
-  // Radius
+
+  ///
+  /// Border radius for the SnackBar.
+  ///
   final BorderRadius? radius;
-  // Box Shadow
+
+  ///
+  /// Box shadow styling for the SnackBar.
+  ///
   final BoxShadow? shadow;
-  // Background Color
+
+  ///
+  /// Background color of the SnackBar.
+  ///
   final Color? backgroundColor;
-  // Title Style
+
+  ///
+  /// Text style for the title of the [TemplatedSnackBar]
+  ///
   final TextStyle? titleStyle;
-  // Title Allignment
+
+  ///
+  /// Text alignment for the title of the [TemplatedSnackBar]
+  ///
   final TextAlign? titleAlignment;
-  // Message Allignment
+
+  ///
+  /// Text alignment for the title of the [TemplatedSnackBar].
+  ///
   final TextAlign? messageAlignment;
-  // Message Style
+
+  ///
+  /// Text style for the message of the [TemplatedSnackBar].
+  ///
   final TextStyle? messageStyle;
-  // Leading Space
+
+  ///
+  /// Leadign space between the leading widget & the content section of the [TemplatedSnackBar].
+  ///
   final double? leadingSpace;
-  // Content Cross Axis Allignment
+
+  ///
+  /// CrossAxisAlignment of the leading widget, content section, and the trailing widget in the [TemplatedSnackBar].
+  ///
   final CrossAxisAlignment contentCrossAxisAlignment;
-  // Trailing Space
+
+  ///
+  /// Trailing space between the trailing widget & the content section of the [TemplatedSnackBar].
+  ///
   final double? trailingSpace;
-  // Title Spacing
+
+  ///
+  /// Spacing between the title & the message in the [TemplatedSnackBar].
+  ///
   final double? titleSpacing;
-  // Loading Bar Height
+
+  ///
+  /// Height of the loading bar when enabled.
+  ///
   final double? loadingBarHeight;
-  // Loading Bar Empty Color
+
+  ///
+  /// Rail(empty) Color of the loading bar when enabled.
+  ///
   final Color? loadingBarRailColor;
-  // Loading Bar Loaded Color
+
+  ///
+  /// Color of the loading bar when enabled.
+  ///
   final Color? loadingBarColor;
-  // Loading Bar Radius
+
+  ///
+  /// Border radius of the loading bar when enabled.
+  ///
   final BorderRadius loadingBarRadius;
   //
 }

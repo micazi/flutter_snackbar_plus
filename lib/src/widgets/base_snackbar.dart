@@ -4,6 +4,9 @@ import '../enums/exports.dart';
 import '../models/configuration.dart';
 import '../models/style.dart';
 
+///
+/// Base Snackbar widget used as a base for both [TemplatedSnackbar] & [CustomSnackbar].
+///
 abstract class BaseSnackBar extends StatefulWidget {
   final FlutterSnackBarConfiguration? configuration;
   final FlutterSnackBarStyle? style;
