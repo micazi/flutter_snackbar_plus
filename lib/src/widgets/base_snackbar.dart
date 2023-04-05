@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../Models/exports.dart';
 import '../enums/exports.dart';
+import '../models/configuration.dart';
+import '../models/style.dart';
 
 abstract class BaseSnackBar extends StatefulWidget {
   final FlutterSnackBarConfiguration? configuration;
