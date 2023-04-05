@@ -27,7 +27,7 @@ import'package:flutter_snackbar_plus/flutter_snackbar_plus.dart';
 
 ## Example
 
-![](lib/Demo/1.gif)![](lib/Demo/2.gif)
+![](https://raw.githubusercontent.com/micazi/flutter_snackbar_plus/master/lib/Demo/1.gif)![](https://raw.githubusercontent.com/micazi/flutter_snackbar_plus/master/lib/Demo/2.gif)
 
 See Example page for example code.
 
