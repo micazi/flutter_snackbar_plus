@@ -169,9 +169,14 @@ class FlutterSnackBar {
             const FlutterSnackBarConfiguration())
         .persistent!) {
       Future.delayed((configuration ??
-                  defaultConfiguration ??
-                  const FlutterSnackBarConfiguration())
-              .showDuration!)
+                      defaultConfiguration ??
+                      const FlutterSnackBarConfiguration())
+                  .showDuration! +
+              ((configuration ??
+                          defaultConfiguration ??
+                          const FlutterSnackBarConfiguration())
+                      .animationDuration! *
+                  2))
           .then((_) {
         entries.remove(snackBar);
         snackBar!.remove();

@@ -50,6 +50,7 @@ I will try to keep adding suggested features as i go.
 
 - **V0.4.3** - Initial Release.
 - **V0.5.0** - Added Documentation.
+- **V0.5.1** - Fixed some bugs.
 
 ## Authors
 
