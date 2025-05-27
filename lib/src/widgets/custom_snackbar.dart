@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import '../models/configuration.dart';
 import '../models/style.dart';
 import 'base_snackbar.dart';
@@ -10,14 +9,9 @@ import 'base_snackbar.dart';
 class CustomSnackbar extends BaseSnackBar {
   const CustomSnackbar({
     super.key,
-    required Widget child,
-    required FlutterSnackBarConfiguration configuration,
-    required FlutterSnackBarStyle style,
-    required VoidCallback onDismissed,
-  }) : super(
-          configuration: configuration,
-          style: style,
-          onDismissed: onDismissed,
-          child: child,
-        );
+    required super.child,
+    required FlutterSnackBarConfiguration super.configuration,
+    required FlutterSnackBarStyle super.style,
+    required super.onDismissed,
+  });
 }

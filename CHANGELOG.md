@@ -1,5 +1,4 @@
-## [0.4.3] - Initial Release.
 
-## [0.5.0] - Added Documentation.
+## 1.0.0
+- **INIT**: Initial stable release.
 
-## [0.5.1] - Fixed some bugs.

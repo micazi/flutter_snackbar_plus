@@ -1,4 +1,4 @@
-library flutter_snackbar_plus;
+library;
 
 export 'src/flutter_snackbar_plus_base.dart';
 export 'src/models/exports.dart';

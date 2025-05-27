@@ -18,15 +18,12 @@ class TemplatedSnackbar extends BaseSnackBar {
     String? message,
     Widget? content,
     Widget? trailing,
-    required FlutterSnackBarConfiguration configuration,
-    required FlutterSnackBarStyle style,
-    required VoidCallback onDismissed,
+    required FlutterSnackBarConfiguration super.configuration,
+    required FlutterSnackBarStyle super.style,
+    required super.onDismissed,
   })  : assert(content != null && title == null ||
             title != null && content == null),
         super(
-          configuration: configuration,
-          style: style,
-          onDismissed: onDismissed,
           child: Row(
             crossAxisAlignment: style.contentCrossAxisAlignment,
             children: [

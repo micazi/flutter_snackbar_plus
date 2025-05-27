@@ -14,12 +14,12 @@ abstract class BaseSnackBar extends StatefulWidget {
   final VoidCallback onDismissed;
 
   const BaseSnackBar({
-    Key? key,
+    super.key,
     required this.child,
     required this.onDismissed,
     this.configuration = const FlutterSnackBarConfiguration(),
     this.style = const FlutterSnackBarStyle(),
-  }) : super(key: key);
+  });
 
   @override
   State<BaseSnackBar> createState() => _BaseSnackBarState();

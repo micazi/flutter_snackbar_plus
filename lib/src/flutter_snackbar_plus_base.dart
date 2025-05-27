@@ -140,7 +140,6 @@ class FlutterSnackBar {
     // Build Overlay Entry
     snackBar = OverlayEntry(
       builder: (_) => CustomSnackbar(
-        child: child,
         configuration: configuration ??
             defaultConfiguration ??
             const FlutterSnackBarConfiguration(),
@@ -156,6 +155,7 @@ class FlutterSnackBar {
                 }
               }
             : () {},
+        child: child,
       ),
     );
 

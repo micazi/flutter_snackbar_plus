@@ -1,3 +1,9 @@
+# Flutter SnackBar Plus Example
+
+The `flutter_snackbar_plus` package allows you to easily handle SnackBars with elaborate list of configuration & style options. Here's how you can get started:
+
+---
+
 ```dart
 import 'package:flutter/material.dart';
 
